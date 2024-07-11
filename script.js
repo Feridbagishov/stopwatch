@@ -62,7 +62,7 @@ function timer(){
         minuteText.innerHTML = ( minute < 10 ? '0'+ minute : minute)+ ":";
         secondText.innerHTML = ( second < 10 ? '0'+ second : second)+ ":";
         millisecondText.innerHTML = ( milliSecond < 10 ? '0'+ milliSecond : milliSecond);
-    })}
+    },10)}
 
    btnStart.addEventListener('click',startTimer);
    btnStop.addEventListener('click',stopTimer);
